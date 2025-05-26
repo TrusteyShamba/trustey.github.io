@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Ghang Studios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            color: red;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+        }
+
+        .hero p {
+            margin: 20px 0;
+        }
+
+        .btn {
+            background: #ff6347;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .item {
+            margin: 10px;
+        }
+
+        .item img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer h2 {
+            margin-bottom: 10px;
+        }
+
+        .socials a {
+            margin: 0 10px;
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .gallery {
+                flex-direction: column;
+            }
+
+            .item img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Holy Ghang Studios</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="potfolio.html">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to the World of Arts & Entertainment</h2>
+        <p>Showcasing the best in music, films, and artistic expressions.</p>
+        <a href="potfolio.html" class="btn">Explore Our Work</a>
+    </section>
+
+    <section id="gallery">
+        <h2>Designed by Holy Ghang Studios for Art Showcasing</h2>
+        <div class="gallery">
+            <div class="item"><img src="trust (3).jpg" alt="Artistic Work 3"></div>
+            <div class="item"><img src="trust (2).jpg" alt="Artistic Work 2"></div>
+            <div class="item"><img src="trust (3).jpg" alt="Artistic Work 3"></div>
+            <div class="item"><img src="trust (2).jpg" alt="Artistic Work 2"></div>
+            <div class="item"><img src="trust (3).jpg" alt="Artistic Work 3"></div>
+
+
+
+        </div>
+
+        <div class="gallery">
+            <div class="item"><img src="art (1).jpg" alt="Artistic Work 3"></div>
+            <div class="item"><img src="artyy.jpg" alt="Artistic Work 3"></div>
+            <div class="item"><img src="art (1).jpg" alt="Artistic Work 3"></div>
+            <div class="item"><img src="artyy.jpg" alt="Artistic Work 3"></div>
+            <div class="item"><img src="art (1).jpg" alt="Artistic Work 3"></div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Music Production</li>
+            <li>Film Production</li>
+            <li>Art Direction</li>
+            <li>Creative Consulting</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: holyghang3777@gmail.com</p>
+        <p>Phone: +263 78 351 1506</p>
+        <p>Follow us on social media!</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            
+        </div>
+    </footer>
+</body>
+</html>
